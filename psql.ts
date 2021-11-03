@@ -6,7 +6,7 @@ dotenv.config();
 export default new Pool({
   user: 'postgres',
   password: process.env.PASSWORD,
-  host: 'localhost',
+  host: '0.0.0.0',
   port: 5432,
   database: process.env.DATABASE,
   // ssl: {
